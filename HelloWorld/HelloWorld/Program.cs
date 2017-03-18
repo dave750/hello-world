@@ -10,7 +10,12 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
+            SayHello("David");
+        }
+
+        static void SayHello(string name)
+        {
+            Console.WriteLine("Hello, " + name);
         }
     }
 }
